@@ -1,19 +1,4 @@
-#### Model setup
 
-    * import `orm.js` into `burger.js`
-
-    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
-
-    * Export at the end of the `burger.js` file.
-
-#### Controller setup 
-
-3. Inside the `burgers_controller.js` file, import the following:
-
-   * Express
-   * `burger.js`
-
-4. Create the `router` for the app, and export the `router` at the end of your file.
 
 #### View setup
 
