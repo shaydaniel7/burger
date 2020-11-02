@@ -14,7 +14,7 @@ This assignment is a logger that uses MySQL, Node, Express, Handlebars and an OR
 
 * The app stores every burger in a database, whether devoured or not.
 
-* [Here is a video of how it works.](https://youtu.be/msvdn95x9OM).
+* [Here is a video of how it should work](https://youtu.be/msvdn95x9OM).
 
 ## Technologies
 
