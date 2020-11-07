@@ -10,11 +10,9 @@ This assignment is a logger that uses MySQL, Node, Express, Handlebars and an OR
 
 * Whenever a user submits a burger's name, the app displays the burger on the left side of the page.
 
-* Each burger in the waiting area also has a `Devour it!` button. When a user clicks it, the burger moves to the right side of the page.
+* Each burger in the waiting area also has a `eat it` button. When a user clicks it, the burger moves to the right side of the page.
 
 * The app stores every burger in a database, whether devoured or not.
-
-* [Here is a video of how it should work](https://youtu.be/msvdn95x9OM).
 
 ## Technologies
 
@@ -28,7 +26,7 @@ This assignment is a logger that uses MySQL, Node, Express, Handlebars and an OR
 
 ## Usage
 
-[Here](https://stormy-garden.herokuapp.com/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger "Link to github repository") is the github repository for this project.
+[Here](https://warm-woodland-61603.herokuapp.com//) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger "Link to github repository") is the github repository for this project.
 
 ## Screenshot
 
