@@ -30,7 +30,7 @@ This assignment is a logger that uses MySQL, Node, Express, Handlebars and an OR
 
 ## Screenshot
 
-![Alt text](screenshot.png "Screenshot")
+<img width="681" alt="Screen Shot 2020-11-06 at 10 03 59 PM" src="https://user-images.githubusercontent.com/67557233/98433483-41fc0100-207c-11eb-99b5-6c4323bda505.png">
 
 ## Information
 
