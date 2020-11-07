@@ -24,19 +24,19 @@
 
       </div>
       <div class="col-12 col-md-5">{{#each burgers}} {{#unless devoured}}
-        <div class="card bg-light card-body mb-4 p-1">
+        <div class="card bg-light card-body mb-3 bg-faded p-1">
           <div class="d-flex align-items-center">
-            <h6 class="mr-auto mt-2 ml-2">{{id}}.{{burgerName}}</h6>
-            <button class="btn btn-danger btn-eat pull-right" data-id="{{id}}" data-eaten="{{devoured}}"> eat it </button>
+            <h6 class="mr-auto mt-2 ml-2">{{id}}. {{burgerName}}</h6>
+            <button class="btn btn-danger btn-eat" data-id="{{id}}" data-eaten="{{devoured}}"> eat it
+            </button>
           </div>
         </div> {{/unless}} {{/each}} </div>
+
       <div class="col-12 col-md-5">{{#each burgers}} {{#if devoured}}
-        <div class="card bg-light card-body mb-4 p-1">
+        <div class="card bg-light card-body mb-3 bg-faded p-1">
           <div class="d-flex align-items-center">
-            <h6 class="mr-auto mt-2 ml-2">{{id}}.{{burgerName}}</h6>
-            <button class="btn btn-link" disabled>add</button>
+            <h6 class="mr-auto mt-2 ml-2">{{id}}. {{burgerName}}</h6>
           </div>
         </div> {{/if}} {{/each}} </div>
     </div>
   </div>
-
