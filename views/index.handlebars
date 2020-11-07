@@ -1,36 +1,42 @@
-<h1>Eat Da Burger!</h1>
+<h1>Eat Da Burger</h1>
+<h2>Create your own burger - then eat it!</h2>
 
-<h2>Create your own burger then devour it</h2>
+<div class="container">
+  <div class="row">
+    <div class="container">
+      <br />
+      <div class="row justify-content-center">
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-    <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
-    <button type="button" class="btn btn-success"><span> EAT </span></button>
-    <hr>
-    {{/unless}}
-    {{/each}}
-      {{!-- {{> burgers/burger-block devour=true}}
-    {{/unless}}
-  {{/each}} --}}
-</ul>
+        <form action="/api/burgers" method="POST" class="card card-sm burger-form mb-5">
+          <div class="card-body row align-items-center">
+            <div class="col-auto">
+            </div>
+            <div class="col">
+              <input id="burgerName" type="text" name="burgerName"
+                class="form-control form-control form-control-lg form-control-borderless" placeholder="create a burger">
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-lg btn-dark" type="submit"> go </button>
+            </div>
+          </div>
+        </form>
 
-{{!-- <ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
-    {{/if}}
-  {{/each}}
-</ul> --}}
 
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+      </div>
+      <div class="col-12 col-md-5">{{#each burgers}} {{#unless devoured}}
+        <div class="card bg-light card-body mb-4 p-1">
+          <div class="d-flex align-items-center">
+            <h6 class="mr-auto mt-2 ml-2">{{id}}.{{burgerName}}</h6>
+            <button class="btn btn-danger btn-eat pull-right" data-id="{{id}}" data-eaten="{{devoured}}"> eat it </button>
+          </div>
+        </div> {{/unless}} {{/each}} </div>
+      <div class="col-12 col-md-5">{{#each burgers}} {{#if devoured}}
+        <div class="card bg-light card-body mb-4 p-1">
+          <div class="d-flex align-items-center">
+            <h6 class="mr-auto mt-2 ml-2">{{id}}.{{burgerName}}</h6>
+            <button class="btn btn-link" disabled>add</button>
+          </div>
+        </div> {{/if}} {{/each}} </div>
+    </div>
   </div>
 
-
-
-  <button type="submit">Add Burger</button>
-</form>

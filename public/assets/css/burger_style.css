@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    background-image: url(/assets/images/burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 30px;
+}
+h1{
+    color: #ffffff;
+    font-size: 60px;
+    /* line-height: 1.2; */
+}
+
+h2{
+    color: #ffffff;
+}
+
+h5{
+    color: #ffffff;
+}
+
+.form-group{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+.btn-success{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+
+
+}
+
+.btn-dark {
+    background-color: #424242;
+    color: #fff;
+
+}
+.btn-dark:hover {
+    background-color: #313131;
+    color: #fff;
+
+}
+
+.btn.btn-link[disabled] {
+    background-color: #fff;
+    color: #fff;
+}
+/* .form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+} */
+
+/* .bg-light {
+    background-color: #fff !important;
+} */
+
+/* .card {
+    background-color: #fff;
+    border: solid 1px #fff;
+} */
+
