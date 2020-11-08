@@ -1,4 +1,5 @@
 // Import MySQL connection.
+const { request } = require("express");
 var connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {

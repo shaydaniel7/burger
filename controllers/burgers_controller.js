@@ -23,13 +23,13 @@ router.put("/api/burgers/:id", function (req, res) {
         devoured: devoured
     }, condition, function (result) {
         res.end();
+
     });
 });
 
 router.delete("/api/burgers/:id", function (req, res) {
     var condition = "id = " + req.params.id;
     burger.deleteOne(condition, function (result) {
-        console.log("hi");
     });
 });
 
