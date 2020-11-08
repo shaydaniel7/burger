@@ -5,12 +5,11 @@ body{
     background-repeat: no-repeat;
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 h1{
     color: #ffffff;
     font-size: 60px;
-    /* line-height: 1.2; */
 }
 
 h2{
@@ -29,8 +28,6 @@ h5{
 .btn-success{
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
-
-
 }
 
 .btn-dark {
@@ -43,27 +40,4 @@ h5{
     color: #fff;
 
 }
-
-.btn.btn-link[disabled] {
-    background-color: #fff;
-    color: #fff;
-}
-/* .form-control-borderless {
-    border: none;
-}
-
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
-    border: none;
-    outline: none;
-    box-shadow: none;
-} */
-
-/* .bg-light {
-    background-color: #fff !important;
-} */
-
-/* .card {
-    background-color: #fff;
-    border: solid 1px #fff;
-} */
 

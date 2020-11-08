@@ -10,35 +10,27 @@ router.get("/", function (req, res) {
 });
 
 router.post("/api/burgers", function (req, res) {
-    burger.insertOne(["burgerName"], 
-    [req.body.burgerName], function (result) {
-        res.redirect("/");  
-    });
+    burger.insertOne(["burgerName"],
+        [req.body.burgerName], function (result) {
+            res.redirect("/");
+        });
 });
 
 router.put("/api/burgers/:id", function (req, res) {
-   
-    var devoured = (req.body.devoured == 0) ?  1 : 0;
-
-    console.log(req.body.devoured); 
-    console.log(devoured); 
-    
+    var devoured = (req.body.devoured == 0) ? 1 : 0;
     var condition = "id = " + req.params.id;
     burger.updateOne({
         devoured: devoured
     }, condition, function (result) {
-      res.end();
+        res.end();
     });
-    
 });
 
-// router.delete("/api/burgers/:id", function (req, res) {
-//     var condition = "id = " + req.params.id;
-
-//     burger.deleteOne(condition, function (result) {
-
-    
-//     });
-// });
+router.delete("/api/burgers/:id", function (req, res) {
+    var condition = "id = " + req.params.id;
+    burger.deleteOne(condition, function (result) {
+        console.log("hi");
+    });
+});
 
 module.exports = router;
