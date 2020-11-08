@@ -26,7 +26,7 @@ This assignment is a logger that uses MySQL, Node, Express, Handlebars and an OR
 
 ## Usage
 
-[Here](https://warm-woodland-61603.herokuapp.com//) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger "Link to github repository") is the github repository for this project.
+[Here](https://warm-woodland-61603.herokuapp.com/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger "Link to github repository") is the github repository for this project.
 
 ## Screenshot
 
