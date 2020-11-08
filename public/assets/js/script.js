@@ -5,7 +5,6 @@ $(function () {
         const eaten = {
             devoured: eat
         };
-
         $.ajax(`/api/burgers/${id}`, {
             type: "PUT",
             data: eaten
@@ -16,7 +15,6 @@ $(function () {
         )
     });
 }),
-
     $(function () {
         $(".btn-delete").on("click", function (event) {
             var id = $(this).data("id");
