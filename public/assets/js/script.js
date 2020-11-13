@@ -18,12 +18,13 @@ $(function () {
     $(function () {
         $(".btn-delete").on("click", function (event) {
             var id = $(this).data("id");
-
+            let item = event.target
             $.ajax("/api/burgers/" + id, {
-                type: "POST"
+                type: "DELETE"
             }).then(
                 function () {
-                    $(".allGone" + id).remove();
+                    console.log(item)
+                    $(`#${id}`).remove();
                     // location.reload();
                 }
             )
