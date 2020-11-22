@@ -2,16 +2,13 @@
 
 ### Overview
 
-This assignment is a logger that uses MySQL, Node, Express, Handlebars and an ORM. It follows the MVC design pattern and uses Node and MySQL to query and route data, and Handlebars to generate the HTML.
+This application is a logger that uses MySQL, Node, Express, Handlebars and an ORM. It follows the MVC design pattern and uses Node and MySQL to query and route data, and Handlebars to generate the HTML.
 
-### Description
+## Description
 
 * Eat-Da-Burger! is an app that lets users input the names of burgers they'd like to eat.
-
 * Whenever a user submits a burger's name, the app displays the burger on the left side of the page.
-
 * Each burger in the waiting area also has a `eat it` button. When a user clicks it, the burger moves to the right side of the page.
-
 * The app stores every burger in a database, whether devoured or not.
 
 ## Technologies
