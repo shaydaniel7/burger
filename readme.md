@@ -19,7 +19,7 @@ This application is a logger that uses MySQL, Node, Express, Handlebars and an O
 * Handlebars
 
 ## Usage
-[Here](https://warm-woodland-61603.herokuapp.com/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger "Link to github repository") is the github repository for this project.
+[Here](https://warm-woodland-61603.herokuapp.com/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/burger-logger "Link to github repository") is the github repository for this project.
 
 ## Screenshot
 <img width="681" alt="Screen Shot 2020-11-06 at 10 03 59 PM" src="https://user-images.githubusercontent.com/67557233/98433483-41fc0100-207c-11eb-99b5-6c4323bda505.png">
